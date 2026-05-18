@@ -115,6 +115,7 @@ table {
     cursor: pointer;
     width: 2rem;
     height: 2rem;
+    flex-shrink: 0;
 }
 
 .cards {
@@ -182,6 +183,9 @@ table {
 
 .card__texto img {
     cursor: pointer;
+    width: 24px;
+    height: 24px;
+    display: block;
 }
 
 .card__descricao {
@@ -271,7 +275,11 @@ table {
 }
 
 .menu-lateral__navegacao img {
+    width: 24px;
+    height: 24px;
     margin-right: 1.5rem;
+    flex-shrink: 0;
+    display: block;
 }
 
 .pagina-inicial {
@@ -346,6 +354,12 @@ table {
     width: 80px;
     display: flex;
     justify-content: space-between;
+}
+
+.rodape__icones img {
+    width: 24px;
+    height: 24px;
+    display: block;
 }
 
 .rodape__texto {
